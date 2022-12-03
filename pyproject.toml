@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "talantov-005"
+version = "0.1.0"
+description = "Пётр Талантов. 0,05. Доказательная медицина от магии до поисков бессмертия"
+authors = ["Anatoly Scherbakov <altaisoft@gmail.com>"]
+license = "CC BY-SA"
+readme = "README.md"
+packages = [{include = "talantov_005"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mkdocs = "^1.4.2"
+mkdocs-macros-plugin = "^0.7.0"
+mkdocs-material = {git = "https://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@github.com/squidfunk/mkdocs-material-insiders.git"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

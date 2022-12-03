@@ -1,0 +1,29 @@
+site_name: Пётр Талантов. 0,05. Доказательная медицина
+repo_url: https://github.com/anatoly-scherbakov/005
+repo_name: "005"
+copyright: Copyright &copy; 2022 Petr Talantov
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - attr_list
+  - pymdownx.tabbed
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+plugins:
+  - search
+  - macros:
+      on_error_fail: true
+
+theme:
+  name: material
+  features:
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.sections
+    # - navigation.indexes
+    - content.code.annotate
